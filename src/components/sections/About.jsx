@@ -2,14 +2,22 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
-    "React",
-    "Vue",
+    "React.js",
+    "Next.js",
     "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "Tailwind CSS",
+    "SCSS",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL",
+    "Prisma",
+    "PostgreSQL",
+    "REST APIs",
+  ];
 
   return (
     <section
@@ -25,8 +33,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Passionate full-stack developer crafting scalable web applications
+              and reimagining solutions with innovation at the core
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,12 +77,13 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong>B.Sc. in Zoology</strong> – Arignar Anna Government
+                  Arts College (2021–2024)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Biology – Transitioned to tech through
+                  NxtWave’s CCBP 4.0 Intensive Program, mastering Full-Stack Web
+                  Development (MERN), TypeScript, SCSS, and Python Basics.
                 </li>
               </ul>
             </div>
@@ -83,23 +92,15 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Full-Stack Developer at Iconic Global Solution (2024 –
+                    Present)
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Focused on backend development using Node.js and Express,
+                    with contributions to frontend features using React and
+                    Next.js. Built scalable REST APIs, integrated databases
+                    (MongoDB, PostgreSQL), and collaborated on user-centric web
+                    solutions.
                   </p>
                 </div>
               </div>
